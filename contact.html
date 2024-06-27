@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HR Technologies</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<main>
+    <div class="container">
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, please feel free to reach out to us. We are here to help!</p>
+            <div class="contact-info">
+                <h3>Our Office</h3>
+                <p>Jubilee hills HR Technologies Ave, Near Peddamma temple ,Hyderabad</p>
+                
+                <h3>Email</h3>
+                <p>info@hrtechnologies.com</p>
+                
+                <h3>Phone Numbers</h3>
+                <p>Main Office: +1 987 654 6530</p>
+                <p>Support: +1 987 654 6533</p>
+                <p>Sales: +1 987 654 6536</p>
+            </div>
+            
+            <form action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</main>
+</body>
+</html>
